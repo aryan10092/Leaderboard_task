@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://leaderboard-task-khtd.vercel.app/",
+    origin: "https://leaderboard-task-khtd.vercel.app",
     methods: ["GET", "POST"]
   }
 });
